@@ -7,8 +7,8 @@ export default class Navbar extends React.Component{
             <div className="page-header-top">
                 <div className="container">
                     <div className="page-logo">
-                        <a href="index.html"> <img src="/assets/logo-default.jpg" alt="logo" class="logo-default"/>
-                        </a>
+                        <NavLink to="/compare"> <img src="/assets/logo-default.jpg" alt="logo" class="logo-default"/>
+                        </NavLink>
                     </div>
                     <ul className="nav nav-justified">
                         <li className="nav-item">
